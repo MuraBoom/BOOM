@@ -1,0 +1,18 @@
+[project]
+name = "api-gateway"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[all]>=0.115.8",
+    "httpx>=0.28.1",
+    "pydantic>=2.10.6",
+    "pyjwt>=2.10.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "ruff>=0.9.6",
+]
